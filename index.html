@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <meta charset="UTF-8">
+
+
+    <title>Linux Consulting</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700'>
+    <link rel='stylesheet' href='css/style.css'>
+    <style>
+        .card {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-header {
+            color: white;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 400;
+            border-bottom: 1px solid #f9cccc;
+            padding: 5px 10px;
+        }
+        
+        .card-main {
+            display: flex;
+            /* Children use Flexbox */
+            flex-direction: column;
+            /* Rotate Axis to Vertical */
+            justify-content: center;
+            /* Group Children in Center */
+            align-items: right;
+            /* Group Children in Center (+axis) */
+            padding: 15px 0;
+            /* Add padding to the top/bottom */
+        }
+        
+        .main-description {
+            color: white;
+            font-size: 14px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body translate="no" data-target="#navbar-example" data-spy="scroll">
+
+    <div class="wrapper">
+
+        <nav class="nav__wrapper" id="navbar-example">
+            <ul class="nav">
+
+                <li role="presentation" class="active">
+                    <a href="#section1">
+                        <span class="nav__counter">Now</span>
+                        <!-- <h3 class="nav__title"></h3> -->
+                        <p class="nav__body"><strong>Current Projects</strong>. IoT, Cloud technologies, audio encoding, streaming. C, C++, NodeJS, Python, Javascript, AWS.</p>
+                    </a>
+                </li>
+
+                <li role="presentation">
+                    <a href="#section2">
+                        <span class="nav__counter">Past</span>
+                        <!-- <h3 class="nav__title"></h3> -->
+                        <p class="nav__body"><strong>Customers</strong>. Audio Video encoding and streaming, Embedded development, IoT</p>
+                    </a>
+                </li>
+
+                <li role="presentation">
+                    <a href="#section3">
+                        <span class="nav__counter">Embedded</span>
+                        <!-- <h3 class="nav__title">Section Title</h3> -->
+                        <p class="nav__body">Over 20 years of <strong>experience</strong> in developing solutions on ARM, MIPS, TI. Linux kernel, drivers, OpenWRT, Yocto.</p>
+                    </a>
+                </li>
+
+                <li role="presentation">
+                    <a href="#section4">
+                        <span class="nav__counter">Software</span>
+                        <!-- <h3 class="nav__title">Section Title</h3> -->
+                        <p class="nav__body"><strong>Open Source</strong> projects developed over the years.</p>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="#section5">
+                        <span class="nav__counter">About</span>
+                        <!-- <h3 class="nav__title">Section Title</h3> -->
+                        <p class="nav__body">Other information</p>
+                    </a>
+                </li>
+            </ul>
+
+            <div style="margin-left: 10px; font-family: linuxconsulting; color: black; font-size: 220px; line-height: 200px;" id="logo">
+                `
+            </div>
+        </nav>
+
+        <section id="section1">
+            <h3>RainMachine, iStreamBox, smoothIoT, Panzer Marshal</h3>
+        </section>
+
+        <section id="section2">
+            <h3>Mini-Box, Euphoria Engineering, Xeco Energy, Hookd WiFi, PowerSolutions, iTuner Networks, EaseWeb</h3>
+        </section>
+
+        <section id="section3">
+
+            <div class="container-fluid">
+                <div class="row equal">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">Atmel AT91 Android
+                                <div style="float: right;">
+                                    <span class="label label-info" style="text-align: right;"><a href="https://github.com/mini-box/picosam9-android-gingerbread-base/tree/master">github</a></i></span>
+                                </div>
+                            </div>
+
+                            <div class="card-main">
+                                <div class="main-description">
+                                    A complete implementation of a new kernel machine architecture (sam9g43), port of Android for boards based on AT91 MCU along with USB WiFi and Ethernet.
+                                    <br> <span class="label label-primary">Kernel, C, Android</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">picoPC
+                                <div style="float: right;">
+                                    <span class="label label-info" style="text-align: right;"><a href="https://arm.mini-box.com" target="new">github</a></i></span>
+                                </div>
+                            </div>
+                            <div class="card-main">
+                                <div class="main-description ">Kernel and embedded linux for a custom board design based on ARM MCU.
+                                    <br><span class="label label-primary">Kernel, C, Angtrom</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card ">
+                            <div class="card-header">electric Imp</div>
+                            <div class="card-main">
+                                <div class="main-description">
+                                    IoT Sensor. Low level, from zero sdcard with FAT interface.
+                                    <br><span class="label label-primary">RTOS, Squirrel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">picoLCD</div>
+                            <div class="card-main">
+                                <div class="main-description"> A series of USB LCD displays with various resolutions.
+                                    <br><span class="label label-primary">Microchip, C, Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row equal">
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">Mini-Box UPS</div>
+                            <div class="card-main">
+                                <div class="main-description">
+                                    A family of UPS and Power related USB controlled products
+
+                                    <br><span class="label label-primary">Microchip, C++</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card ">
+                            <div class="card-header">emlog</div>
+                            <div class="card-main">
+                                <div class="main-description"> Kernel embedded circular logging
+                                    <br><span class="label label-primary">Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">pidwatcher</div>
+                            <div class="card-main">
+                                <div class="main-description "> Process watchdog in kernel
+                                    <br><span class="label label-primary">Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">Spectra8 V4L Driver</div>
+                            <div class="card-main">
+                                <div class="main-description "> Video4Linux 4/8 inputs video capture driver
+                                    <br><span class="label label-primary">Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row equal">
+
+                    <div class="col-md-3">
+                        <div class="card ">
+                            <div class="card-header">SiS/671 Geode Xorg</div>
+                            <div class="card-main">
+                                <div class="main-description "> Xorg drivers for these chipsets
+                                    <br><span class="label label-primary">Xorg, C</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- 
+            <div>
+                <h3>Atmel Android, picoPC, electric Imp, picoLCD, Mini-Box UPS</h3>
+                <br>
+                <h3> DCDC-USB, emlog, pidwatcher, Spectr8 Video4Linux, SiS 671/Geode Xorg drivers, iMedia Linux, picoDesk</h3>
+            </div> -->
+        </section>
+
+        <section id="section4">
+            <h3>blueprint-dynamic-mock, android-tslib, cban, mpeg4joiner, PictureGrabber, Darkice patches, mediapack</h3>
+        </section>
+
+        <section id="section5">
+            <h3>npavel@linuxconsulting.ro</h3>
+        </section>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+
+        <script>
+            $('#navbar-example').on('activate.bs.scrollspy', function(e) {
+                var target = e.target.firstElementChild.hash;
+                console.log(target);
+                if (target === '#section3' || target === '#section4') {
+                    $('#logo').css(
+                        'color', 'white'
+                    );
+                } else {
+                    $('#logo').css(
+                        'color', 'black'
+                    );
+                }
+
+            })
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') ||
+                    location.hostname == this.hostname) {
+
+                    var target = $(this.hash);
+
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                                scrollTop: target.offset().top
+                            },
+                            1000);
+                        return false;
+                    }
+                }
+            });
+        </script>
+</body>
+
+</html>
