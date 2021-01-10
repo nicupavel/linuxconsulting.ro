@@ -47,9 +47,9 @@ a:hover {
   min-width: 0;
   min-height: 200px;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.02);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 0px solid rgba(0, 0, 0, 0.15);
   border-radius: .25rem;
   text-align: left;
   padding: 0 0 0 0;
@@ -88,8 +88,8 @@ a:hover {
 
 section {
   height: 100vh;
-  font-size: 40px;
-  font-weight: 100;
+  font-size: 16px;
+  font-weight: 300;
   background-color: #22A7F0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,7 +116,7 @@ section:nth-child(3) {
 }
 
 section:nth-child(4) {
-  background: #F9690E;
+  background: #00838F;
 }
 
 section:nth-child(5) {
