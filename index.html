@@ -44,7 +44,7 @@
                     <a href="#section4">
                         <span class="nav__counter">Software</span>
                         <!-- <h3 class="nav__title">Section Title</h3> -->
-                        <p class="nav__body"><strong>Open Source</strong> projects developed over the years.</p>
+                        <p class="nav__body"><strong>Open Source</strong> projects developed over the years beside our closed source projects.</p>
                     </a>
                 </li>
                 <li role="presentation">
@@ -70,7 +70,7 @@
                     </div>
 
                     <div class="col-md-3">
-                        <a href="http://istreambox.com" target="new"><img src="assets/clients/istreambox.png" style="width: 90%;"></a>
+                        <a href="http://istreambox.com" target="new"><img src="assets/clients/istreambox.png" style="width: 90%;padding-top: 10px;"></a>
                     </div>
 
                     <div class="col-md-3">
@@ -187,19 +187,18 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section id="section3">
-
             <div class="container-fluid">
+
                 <div class="row equal">
+
                     <div class="col-md-3">
                         <div class="card">
                             <div class="card__header">
                                 <a href="https://github.com/mini-box/picosam9-android-gingerbread-base/tree/master" target="new">Atmel AT91 Android</a>
                             </div>
-
                             <div class="card__main">
                                 <div class="card__text">
                                     A complete implementation of a new kernel machine architecture (sam9g43), port of Android for boards based on AT91 MCU along with USB WiFi and Ethernet.
@@ -224,12 +223,13 @@
                     </div>
 
                     <div class="col-md-3">
-                        <div class="card ">
-                            <div class="card__header">electric Imp</div>
+                        <div class="card">
+                            <div class="card__header">
+                                <a href="https://www.mini-box.com/iMediaLinux_2" target="new">iMedia Linux</a>
+                            </div>
                             <div class="card__main">
                                 <div class="card__text">
-                                    IoT Sensor. Low level, from zero sdcard with FAT interface.
-                                    <br><span class="label label-primary">RTOS, Squirrel</span>
+                                    From scratch embedded linux distribution aimed at mini-itx systems (no longer maintained).
                                 </div>
                             </div>
                         </div>
@@ -237,7 +237,9 @@
 
                     <div class="col-md-3">
                         <div class="card">
-                            <div class="card__header">picoLCD</div>
+                            <div class="card__header">
+                                <a href="https://github.com/mini-box/picoLCD" target="new">picoLCD</a>
+                            </div>
                             <div class="card__main">
                                 <div class="card__text"> A series of USB LCD displays with various resolutions.
                                     <br><span class="label label-primary">Microchip, C, Kernel</span>
@@ -251,11 +253,10 @@
 
                     <div class="col-md-3">
                         <div class="card">
-                            <div class="card__header">Mini-Box UPS</div>
+                            <div class="card__header"><a href="https://github.com/mini-box/ups" target="new">Mini-Box UPS</a></div>
                             <div class="card__main">
                                 <div class="card__text">
                                     A family of UPS and Power related USB controlled products
-
                                     <br><span class="label label-primary">Microchip, C++</span>
                                 </div>
                             </div>
@@ -264,46 +265,60 @@
 
                     <div class="col-md-3">
                         <div class="card ">
-                            <div class="card__header">emlog</div>
-                            <div class="card__main">
-                                <div class="card__text"> Kernel embedded circular logging
-                                    <br><span class="label label-primary">Kernel</span>
+                            <div class="card__header">
+                                <a href="https://github.com/nicupavel/emlog" target="new">emlog</a></div>
+                            <div class="card__main ">
+                                <div class="card__text "> Kernel embedded circular logging. Maintainer.
+                                    <br><span class="label label-primary ">Kernel</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">pidwatcher</div>
-                            <div class="card__main">
-                                <div class="card__text "> Process watchdog in kernel
-                                    <br><span class="label label-primary">Kernel</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">Spectra8 V4L Driver</div>
-                            <div class="card__main">
-                                <div class="card__text "> Video4Linux 4/8 inputs video capture driver
-                                    <br><span class="label label-primary">Kernel</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row equal">
 
                     <div class="col-md-3">
                         <div class="card ">
-                            <div class="card__header">SiS/671 Geode Xorg</div>
+                            <div class="card__header"><a href="https://github.com/nicupavel/electricimp-sdcard" target="new">electricImp Sensor</a></div>
                             <div class="card__main">
+                                <div class="card__text">
+                                    IoT Sensor. Low level, from zero sdcard with FAT interface.
+                                    <br><span class="label label-primary">RTOS, Squirrel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header ">
+                                <a href="https://github.com/nicupavel/cretaceous-code/tree/master/spectra8 " target="new ">Spectra8 V4L Driver</a></div>
+                            <div class="card__main ">
+                                <div class="card__text "> Video4Linux 4/8 inputs video capture driver
+                                    <br><span class="label label-primary ">Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row equal ">
+
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/cretaceous-code/tree/master/pidwatcher " target="new ">pidwatcher</a></div>
+                            <div class="card__main ">
+                                <div class="card__text "> Process watchdog in kernel
+                                    <br><span class="label label-primary ">Kernel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/xf86-video-sis-imedia" target="new">SiS/671 Geode Xorg </a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Xorg drivers for these chipsets
-                                    <br><span class="label label-primary">Xorg, C</span>
+                                    <br><span class="label label-primary ">Xorg, C</span>
                                 </div>
                             </div>
                         </div>
@@ -311,94 +326,98 @@
 
                 </div>
             </div>
-            <!-- 
-            <div>
-                <h3>Atmel Android, picoPC, electric Imp, picoLCD, Mini-Box UPS</h3>
-                <br>
-                <h3> DCDC-USB, emlog, pidwatcher, Spectr8 Video4Linux, SiS 671/Geode Xorg drivers, iMedia Linux, picoDesk</h3>
-            </div> -->
         </section>
 
         <section id="section4">
-            <div class="container-fluid">
-                <div class="row">
+            <div class="container-fluid ">
+                <div class="row ">
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">Blueprint Dynamic Mock</div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/blueprint-dynamic-mock" target="new">Blueprint Dynamic Mock</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Create mock API server from blueprint API specs file
-                                    <br><span class="label label-primary">NodeJS</span>
+                                    <br><span class="label label-primary ">NodeJS</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">Android TSLib</div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/android-tslib" target="new">Android TSLib</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Android Touchscreen Calibration and Testing
-                                    <br><span class="label label-primary">C</span>
+                                    <br><span class="label label-primary ">C</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">CBAN</div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/cban/tree/feature-multi-ifaces" target="new">CBAN</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Shows current network bandwidth and exports data for usage on RRD or MRTG
-                                    <br><span class="label label-primary">C</span>
+                                    <br><span class="label label-primary ">C</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">mp4join</div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/mp4join" target="new">mp4join</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Join MP4 files without reencoding. GUI and console version.
-                                    <br><span class="label label-primary">C++</span>
+                                    <br><span class="label label-primary ">C++</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header"><a href="https://github.com/nicupavel/picoDesk">picoDesk</a></div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/picoDesk ">picoDesk</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Send selected applications windows to a USB LCD.
-                                    <br><span class="label label-primary">C</span>
+                                    <br><span class="label label-primary ">C</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
-                        <div class="card">
-                            <div class="card__header">PictureGrabber</div>
-                            <div class="card__main">
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header "><a href="https://github.com/nicupavel/picturegrabber" target="new">PictureGrabber</a></div>
+                            <div class="card__main ">
                                 <div class="card__text "> Video4Linux capture app
-                                    <br><span class="label label-primary">C</span>
+                                    <br><span class="label label-primary ">C</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card ">
+                            <div class="card__header ">Many more ...</div>
+                            <div class="card__main ">
+                                <div class="card__text ">
+                                    See my <a href="https://github.com/nicupavel/" target="new">repository</a> and
+                                    <a href="https://github.com/nicupavel/cretaceous-code" target="new"> some really old projects</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="section5">
+            <h3>npavel@linuxconsulting.ro</h3>
+        </section>
 
     </div>
-
-    <!-- <h3>blueprint-dynamic-mock, android-tslib, cban, mpeg4joiner, PictureGrabber, Darkice patches, mediapack</h3> -->
-    </section>
-
-    <section id="section5">
-        <h3>npavel@linuxconsulting.ro</h3>
-    </section>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
