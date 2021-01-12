@@ -29,6 +29,14 @@ a {
 }
 
 .card {
+    a {
+        padding: 0;
+        color: #fff;
+        font-weight: 400;
+        &:hover {
+            color: white;
+        }
+    }
     & {
         margin-bottom: 24px;
         position: relative;

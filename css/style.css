@@ -34,6 +34,16 @@ a:hover {
           flex-direction: column;
 }
 
+.card a {
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+.card a:hover {
+  color: white;
+}
+
 .card {
   margin-bottom: 24px;
   position: relative;
